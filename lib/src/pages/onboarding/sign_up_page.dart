@@ -87,13 +87,13 @@ class SignUpPage extends StatelessWidget {
                 children: [
                   const Text(
                     "마켓팅 정보 수신 (선택)",
-                    style: const TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   CheckboxListTile(
                     activeColor: mainColor,
                     contentPadding: EdgeInsets.zero,
                     title: const Text("전체 동의 합니다.",
-                        style: const TextStyle(fontSize: 14)),
+                        style: TextStyle(fontSize: 14)),
                     value: true,
                     onChanged: (value) {},
                     controlAffinity: ListTileControlAffinity.leading,
