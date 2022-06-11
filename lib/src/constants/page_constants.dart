@@ -9,6 +9,10 @@ import 'package:zipsa_ui_design/src/pages/home/house_add_page.dart';
 import 'package:zipsa_ui_design/src/pages/home/mail_add_page.dart';
 import 'package:zipsa_ui_design/src/pages/home/mail_detail_page.dart';
 import 'package:zipsa_ui_design/src/pages/home/mail_main_page.dart';
+import 'package:zipsa_ui_design/src/pages/onboarding/change_pw_page.dart';
+import 'package:zipsa_ui_design/src/pages/onboarding/find_id_page.dart';
+import 'package:zipsa_ui_design/src/pages/onboarding/find_pw_page.dart';
+import 'package:zipsa_ui_design/src/pages/onboarding/show_id_page.dart';
 import 'package:zipsa_ui_design/src/pages/onboarding/sign_in_page.dart';
 import 'package:zipsa_ui_design/src/pages/onboarding/sign_up_page.dart';
 import 'package:zipsa_ui_design/src/pages/setting/setting_edit_account_page.dart';
@@ -20,6 +24,10 @@ var pages = [
   GetPage(name: '/', page: () => const SplashScreen()),
   GetPage(name: '/SignIn', page: () => const SignInPage()),
   GetPage(name: '/SignUp', page: () => const SignUpPage()),
+  GetPage(name: '/FindId', page: () => const FindIdPage()),
+  GetPage(name: '/FindPw', page: () => const FindPwPage()),
+  GetPage(name: '/ShowId', page: () => const ShowIdPage()),
+  GetPage(name: '/ChangePw', page: () => const ChangePwPage()),
 
   // app
   GetPage(name: '/App', page: () => const App(), binding: AppBindings()),

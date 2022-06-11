@@ -234,13 +234,14 @@ class BoardDetailPage extends StatelessWidget {
               child: TextField(
                 textAlignVertical: TextAlignVertical.center,
                 decoration: InputDecoration(
-                    hintStyle: TextStyle(fontSize: 12),
+                    hintStyle: const TextStyle(fontSize: 12),
                     hintText: "댓글을 입력하세요",
                     suffixIcon: IconButton(
                         onPressed: () {}, icon: LineIcon(LineIcons.paperPlane)),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(40),
-                        borderSide: BorderSide(color: Color(0xff7d7d7d)))),
+                        borderSide:
+                            const BorderSide(color: Color(0xff7d7d7d)))),
               ),
             )
           ],

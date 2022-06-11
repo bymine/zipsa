@@ -15,7 +15,7 @@ class SettingEditUserPage extends StatelessWidget {
     TextEditingController controller = TextEditingController();
     return Scaffold(
       appBar: AppBar(
-        title: Text("닉네임 수정"),
+        title: const Text("닉네임 수정"),
       ),
       body: Column(
         children: [

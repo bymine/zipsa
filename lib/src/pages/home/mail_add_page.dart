@@ -9,7 +9,7 @@ class MailAddPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("메일 쓰기"),
+        title: const Text("메일 쓰기"),
       ),
       body: Column(
         children: [
@@ -19,7 +19,7 @@ class MailAddPage extends StatelessWidget {
                 right: mainHorizontalPadding,
                 top: mainTopPadding),
             child: Column(
-              children: [
+              children: const [
                 InputWidget(
                   title: "받는 사람",
                   hintText: "받는 사람을 입력하세요.",

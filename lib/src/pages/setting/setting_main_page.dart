@@ -40,7 +40,7 @@ class SettingPage extends StatelessWidget {
                             fontSize: 14,
                             color: Colors.black,
                           )),
-                      SizedBox(
+                      const SizedBox(
                         height: 10,
                       ),
                       OutlinedButton(

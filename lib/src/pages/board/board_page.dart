@@ -11,7 +11,6 @@ class BoardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> buildings = ["에스빌", "그린빌", "로즈빌"];
-    String _vote = 'a';
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
@@ -155,7 +154,7 @@ class VoteWriting extends StatelessWidget {
                         borderRadius: BorderRadius.circular(8)),
                     child: const Text(
                       "vote b",
-                      style: const TextStyle(fontSize: 12),
+                      style: TextStyle(fontSize: 12),
                     ),
                   ),
                   activeColor: mainColor,
